@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "37809315307",
+    "project_id": "transportcollectifs-cf61e",
+    "storage_bucket": "transportcollectifs-cf61e.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:37809315307:android:15e390a9bf209d70598dae",
+        "android_client_info": {
+          "package_name": "uqac.dim.transportcollectifs"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA7_WV7y7jCTRQo9j3XWrJ48vwUrd4jB9c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

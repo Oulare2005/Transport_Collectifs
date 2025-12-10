@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/menu1"
+        android:title="@string/accueil_de_connexion" />
+    <item
+        android:id="@+id/menu2"
+        android:title="@string/recherche1" />
+    <item
+        android:id="@+id/menu3"
+        android:title="@string/annonce_un_d_part1" />
+    <item
+        android:id="@+id/menu4"
+        android:title="@string/historique" />
+    <item
+        android:id="@+id/menu5"
+        android:title="@string/profil1" />
+    <item
+        android:id="@+id/menu6"
+        android:title="@string/parametre" />
+</menu>

@@ -1,0 +1,11 @@
+<resources>
+    <string name="language_selection">Language Selection</string>
+    <string name="language_french">French</string>
+    <string name="language_english">English</string>
+    <string name="depart">My departures</string>
+    <string name="recherche">to research</string>
+    <string name="Annonce">Announce</string>
+    <string name="Jours">The day of departure</string>
+    <string name="Arriver">City of arrival</string>
+    <string name="save_button">Save</string>
+</resources>

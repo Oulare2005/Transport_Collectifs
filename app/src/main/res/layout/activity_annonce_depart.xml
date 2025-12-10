@@ -1,0 +1,55 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/annoncer_un_trajet"
+        android:textSize="24sp"
+        android:layout_gravity="center_horizontal"
+        android:paddingBottom="16dp"/>
+
+    <EditText
+        android:id="@+id/etUserId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/ville_de_d_part1"/>
+
+    <EditText
+        android:id="@+id/etTripId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/ville_d_arriver1"/>
+
+    <EditText
+        android:id="@+id/etSeats"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/nombre_de_place"/>
+
+    <EditText
+        android:id="@+id/etTripIdat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/prix"/>
+
+    <EditText
+        android:id="@+id/etTripIda"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/le_jours_ex_2025_01_01"/>
+
+
+    <Button
+        android:id="@+id/btnAnnonce"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/annoncer"/>
+</LinearLayout>

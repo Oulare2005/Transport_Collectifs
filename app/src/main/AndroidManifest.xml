@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.TransportCollectifs"
+        tools:targetApi="31">
+
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+
+
+                <action android:name="android.intenta.action.MAIN" />
+                <category android:name="android.intenta.category.LAUNCHER" />
+
+
+                <action android:name="android.intentAccueil.action.MAIN" />
+
+            </intent-filter>
+
+
+
+        </activity>
+        <activity android:name=".RechercheTrajetsActivity" />
+        <activity android:name=".ResultatsTrajetsActivity" />
+        <activity android:name=".annoncer" />
+        <activity android:name=".AccueilActivity" />
+        <activity android:name=".RechercheActivity" />
+        <activity android:name=".AnnonceDepartActivity" />
+        <activity android:name=".HistoriqueActivity" />
+        <activity android:name=".ProfilActivity" />
+        <activity android:name=".ConnexionActivity" />
+        <activity android:name=".InscriptionActivity" />
+        <activity android:name=".TrajetsActivity" />
+        <activity android:name=".LanguageSelectionActivity" />
+        <activity android:name=".ParametreActivity" />
+
+    </application>
+
+    <uses-permission android:name="android.permission.INTERNET" />
+</manifest>
